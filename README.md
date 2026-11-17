@@ -1,5 +1,3 @@
-
-
 # 🌌 FoodVerse: Explore Foods as Planets in a 3D Universe
 
 > **“What if nutrition could be explored like a galaxy?”**
@@ -58,17 +56,19 @@ That’s how **FoodVerse** was born — an interactive 3D universe where food co
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React.js, Three.js, TailwindCSS
-* **Backend:** Flask / Node.js
-* **AI Integration:** OpenAI / Gemini API
-* **Database:** Firebase / MongoDB
-* **Hosting:** Vercel / Render
+* **Framework:** Next.js 15 (App Router)
+* **Language:** TypeScript, React 19
+* **3D Graphics:** Three.js, @react-three/fiber, @react-three/drei
+* **Styling:** TailwindCSS v4, shadcn/ui components
+* **Animations:** Framer Motion
+
+> Note: the AI chat, recommendation engine and backend listed in the vision sections above are planned / pitch features — they are not part of this repository's code, which is the Next.js 3D explorer described by the stack above.
 
 ---
 
 ## 🎥 Demo Video
 
-🎬 [Watch FoodVerse in Action](https://youtu.be/oFUFAZ-rZp8) 
+🎬 [Watch FoodVerse in Action](https://youtu.be/oFUFAZ-rZp8)
 
 > A short 2–3 minute walkthrough showing 3D food planets, AI chat, and nutrition analysis in real-time.
 
@@ -95,20 +95,19 @@ That’s how **FoodVerse** was born — an interactive 3D universe where food co
 
 ```bash
 # Clone this repository
-[git clone https://github.com/MSAbhishek22/foodverse-3d-health-explorer-1.git]
+git clone https://github.com/MSAbhishek22/foodverse-3d-health-explorer-1.git
 
 # Navigate into the project directory
-cd foodverse
+cd foodverse-3d-health-explorer-1
 
 # Install dependencies
 npm install
 
-# Add your API keys (OpenAI / Gemini) in .env
-REACT_APP_API_KEY=your_api_key_here
-
-# Run the app
-npm start
+# Run the development server
+npm run dev
 ```
+
+Then open `http://localhost:3000` in your browser.
 
 ---
 
@@ -140,5 +139,3 @@ Feel free to fork, modify, and contribute to make nutrition education more inter
 
 If you liked FoodVerse, consider giving it a ⭐ on GitHub or sharing it with your community!
 Together, let’s make **learning about food as fun as exploring space.** 🚀🌍
-
-
